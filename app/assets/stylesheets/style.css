@@ -1,0 +1,15 @@
+body { background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    background-color: #E14607;
+}
+
+h2 { 
+    color: darkred;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted;
+}
+
+ul 

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :portfolios
+
+  resources :statuses
+
   root 'welcome#about'
   get 'welcome/index'
 
