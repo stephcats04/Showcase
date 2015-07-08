@@ -1,4 +1,4 @@
-class CarinaController < ApplicationController
+	class CarinaController < ApplicationController
   layout 'carina'
   def index
   end
