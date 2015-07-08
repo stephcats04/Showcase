@@ -3,11 +3,22 @@ Rails.application.routes.draw do
 
   resources :statuses
 
-  root 'welcome#about'
+  root 'carina#index'
   get 'welcome/index'
   get 'welcome/about'
   get 'portfolios'=>'projects#about'
   get '/carina'=>'carina#index'
+  get '/carina/takeaways'=>'carina#takeaways'
+  get '/carina/projects'=>'carina#projects'
+  get '/carina/experiences'=>'carina#experiences'
+  get '/carina/contact'=>'carina#contact'
+  get '/carina/about'=>'carina#about'
+  get '/carina/website'=>'carina#website'
+  get '/carina/prototype'=>'carina#prototype'
+  get '/carina/coding'=>'carina#coding'
+  get '/carina/hackathon'=>'carina#hackathon'
+  get '/carina/expectations'=>'carina#expectations'
+  get '/carina/interns'=>'carina#interns'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
