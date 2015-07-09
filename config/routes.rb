@@ -3,9 +3,10 @@ Rails.application.routes.draw do
 
   resources :statuses
 
-  root 'carina#index'
+  root 'welcome#about'
   get 'welcome/index'
   get 'welcome/about'
+
   get 'portfolios'=>'projects#about'
   get '/carina'=>'carina#index'
   get '/carina/takeaways'=>'carina#takeaways'
